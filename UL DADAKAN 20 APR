@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int PR;
+    int UTS;
+    int UAS;
+    float nilaiPR;
+    float nilaiUTS;
+    float nilaiUAS;
+    float akhir;
+    
+    cout<<"Masukan Nilai PR =";cin>>PR;
+     if (PR > 100){
+        cout<<"Nilai tidak bisa melebihi 100"; return 0;
+    }
+    cout<<"Masukan Nilai UTS =";cin>>UTS;
+     if (UTS > 100){
+        cout<<"Nilai tidak bisa melebihi 100"; return 0;
+    }
+    cout<<"Masukan Nilai UAS =";cin>>UAS;
+     if (UAS > 100){
+        cout<<"Nilai tidak bisa melebihi 100"; return 0;
+     }
+    }        
